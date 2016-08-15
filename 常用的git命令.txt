@@ -12,3 +12,17 @@ $ git branch
     
 $ git help
     查看git帮助
+    
+    
+$ git add .
+    将文件添加到暂存区,  .  表示添加全部文件
+    
+$ git status -s 
+    查看暂存区中的文件
+    
+$ git commit -m 'XXXXXX'
+    向本地仓库提交,本次提交的注释为'XXXXXX'
+    
+$ git push <alias> <branch>
+    向远程仓库<alias>提交分支<branch>
+    
